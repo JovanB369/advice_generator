@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(218, 23%, 16%);
+    font-family:'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.container{
+    width: 600px;
+    height: 350px;
+    border-radius: 2rem;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.circle{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -2rem;
+}
+
+.pattern{
+    position: absolute;
+    bottom: 4rem;
+}
