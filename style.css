@@ -35,7 +35,61 @@ body{
     bottom: -2rem;
 }
 
+.circle:hover{
+    cursor: pointer;
+    box-shadow:0 0 15px 2px hsl(150, 100%, 66%);    ;
+}
+
+
 .pattern{
     position: absolute;
     bottom: 4rem;
+}
+
+#img2{
+    display: none;
+}
+
+.advice-number,.advice{
+    position: relative;
+    top: 3rem;
+}
+
+.advice-number{
+    color: hsl(150, 100%, 66%);
+}
+
+.advice{
+    color: hsl(193, 38%, 86%);
+    width: 80%;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 480px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .container{
+        width: 90%;
+        height: 45%;
+    }
+
+    .circle:hover{
+        box-shadow:0 0 15px 2px hsl(150, 100%, 66%);
+    }
+
+    .advice,.advice-number{
+        top: 1.5rem;
+    }
+
+    #img1{
+        display: none;
+    }
+    #img2{
+        display: block;
+    }
 }
